@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="index.css">      
+    </head>
+    <body>
+        <main>
+
+            <form id="new-scheme">
+
+                <input type="color" id="seed-color" name="seed-color" value="#F55A5A"/>
+
+                <select id="color-scheme-mode" name="color-scheme-mode">
+                    <option>Monochrome</option>
+                    <option>Monochrome-dark</option>
+                    <option>Monochrome-light</option>
+                    <option>Analogic</option>
+                    <option>Complement</option>
+                    <option>Analogic-complement</option>
+                    <option>Triad</option>
+                </select>
+
+                <button type="submit">Get color scheme</button>
+
+            </form>
+
+            <div id="scheme-color">
+                <div class="bar">
+                    <div class="color-column" style="background-color:#F55A5A;"></div>
+                    <div class="hex-text">#F55A5A</div>
+                </div>
+                <div class="bar">
+                    <div class="color-column" style="background-color:#2B283A;"></div>
+                    <div class="hex-text">#2B283A</div>
+                </div>
+                <div class="bar">
+                    <div class="color-column" style="background-color:#FBF3AB;"></div>
+                    <div class="hex-text">#FBF3AB</div>
+                </div>
+                <div class="bar">
+                    <div class="color-column" style="background-color:#AAD1B6;"></div>
+                    <div class="hex-text">#F55A5A</div>
+                </div>
+                <div class="bar">
+                    <div class="color-column" style="background-color:#A626D3;"></div>
+                    <div class="hex-text">#A626D3</div>
+                </div>
+            </div>
+  
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
